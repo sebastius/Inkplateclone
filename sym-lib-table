@@ -3,4 +3,5 @@
   (lib (name ED0970C1)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/ED0970C1.lib)(options "")(descr ""))
   (lib (name AXT334124)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/AXT334124.lib)(options "")(descr ""))
   (lib (name ED060SC7)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/ED060SC7.lib)(options "")(descr ""))
+  (lib (name Wrover)(type Legacy)(uri ${KIPRJMOD}/esp32-wrover-kicad/esp32-wrover.lib)(options "")(descr ""))
 )
