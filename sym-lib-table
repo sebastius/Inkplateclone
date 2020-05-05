@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name TPS65186)(type Legacy)(uri ${KIPRJMOD}/TPS65186.lib)(options "")(descr ""))
+  (lib (name ED0970C1)(type Legacy)(uri ${KIPRJMOD}/ED0970C1.lib)(options "")(descr ""))
+  (lib (name AXT334124)(type Legacy)(uri C:/Users/Bas/Downloads/epdiy-master/epdiy-master/hardware/epaper-breakout/inkplateclone/AXT334124.lib)(options "")(descr ""))
+)

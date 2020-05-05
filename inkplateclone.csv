@@ -1,0 +1,26 @@
+Source:;C:\Users\Bas\Downloads\epdiy-master\epdiy-master\hardware\epaper-breakout\inkplateclone\inkplateclone.sch;;;;;
+Date:;3-5-2020 00:43;;;;;
+Tool:;Eeschema (5.1.5)-3;;;;;
+Generator:;C:\Program Files\KiCad\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py;;;;;
+Component Count:;42;;;;;
+Ref;Qnty;Value;Cmp name;Footprint;Description;Vendor
+C1, C2, C3, C5, C6, C7, C8, C9, C13, C17, ;10;4u7;C;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor;
+C4, C10, C18, ;3;10uF;C;Capacitor_SMD:C_1206_3216Metric;Unpolarized capacitor;
+C11, C19, ;2;2u2;C;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor;
+C12, C16, ;2;10nF;C;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor;
+C14, C15, ;2;100nF;C;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor;
+C20, C21, C22, ;3;100n;C;Capacitor_SMD:C_0805_2012Metric;Unpolarized capacitor;
+D1, D3, ;2;BAT54S;BAT54S;Package_TO_SOT_SMD:SOT-23;schottky barrier diode;
+D2, D4, ;2;DIODE SCHOTTKY 30V 1A TSLP-2;D_Schottky;Diode_SMD:D_SOD-323;Schottky diode;
+J2, ;1;Conn_01x16_Male;Conn_01x16_Male;Connector_PinSocket_2.54mm:PinSocket_1x16_P2.54mm_Horizontal;Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/);
+L1, ;1;4.7uH;L;Inductor_SMD:L_Coilcraft_XxL4040;Inductor;
+L2, ;1;2.2uH;L;Inductor_SMD:L_Coilcraft_XxL4040;Inductor;
+R1, R4, ;2;1M;R;Resistor_SMD:R_0805_2012Metric;Resistor;
+R2, ;1;47k5;R;Resistor_SMD:R_0805_2012Metric;Resistor;
+R3, ;1;43K;R;Resistor_SMD:R_0805_2012Metric;Resistor;
+R5, ;1;52K3;R;Resistor_SMD:R_0805_2012Metric;Resistor;
+R6, R7, R8, R9, ;4;10k;R;Resistor_SMD:R_0805_2012Metric;Resistor;
+TH1, ;1;NCP18X103F03RB;Thermistor_NTC;Resistor_SMD:R_0805_2012Metric;Temperature dependent resistor, negative temperature coefficient;
+U1, ;1;TPS65186;TPS65186;Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.3x5.3mm;;
+U2, ;1;ED097OC1;ED097OC1;Connector_FFC-FPC:Hirose_FH12-33S-0.5SH_1x33-1MP_P0.50mm_Horizontal;;
+U3, ;1;MCP23017_SO;MCP23017_SO;Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm;16-bit I/O expander, I2C, interrupts, w pull-ups, SOIC-28;
