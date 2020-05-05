@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name inkplateclone)(type KiCad)(uri C:/Users/Bas/Downloads/epdiy-master/epdiy-master/hardware/epaper-breakout/inkplateclone)(options "")(descr ""))
+  (lib (name inkplateclone)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
 )
