@@ -1,6 +1,7 @@
 (sym_lib_table
-  (lib (name TPS65186)(type Legacy)(uri ${KIPRJMOD}/TPS65186.lib)(options "")(descr ""))
-  (lib (name ED0970C1)(type Legacy)(uri ${KIPRJMOD}/ED0970C1.lib)(options "")(descr ""))
-  (lib (name AXT334124)(type Legacy)(uri ${KIPRJMOD}/AXT334124.lib)(options "")(descr ""))
-  (lib (name ED060SC7)(type Legacy)(uri ${KIPRJMOD}/ED060SC7.lib)(options "")(descr ""))
+  (lib (name TPS65186)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/TPS65186.lib)(options "")(descr ""))
+  (lib (name ED0970C1)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/ED0970C1.lib)(options "")(descr ""))
+  (lib (name AXT334124)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/AXT334124.lib)(options "")(descr ""))
+  (lib (name ED060SC7)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/ED060SC7.lib)(options "")(descr ""))
+  (lib (name inkplateclone-rescue)(type Legacy)(uri ${KIPRJMOD}/inkplateclone-rescue.lib)(options "")(descr ""))
 )
