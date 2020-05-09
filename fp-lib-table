@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name inkplateclone)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
   (lib (name Wrover)(type KiCad)(uri ${KIPRJMOD}/esp32-wrover-kicad/esp32-wrover.pretty)(options "")(descr ""))
+  (lib (name TP56186)(type KiCad)(uri ${KIPRJMOD}/TP56186.pretty)(options "")(descr ""))
 )
