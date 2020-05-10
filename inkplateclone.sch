@@ -2981,4 +2981,6 @@ F 3 "~" H 2200 8750 50  0001 C CNN
 	1    2200 8750
 	1    0    0    -1  
 $EndComp
+Text Notes 11450 8250 0    100  ~ 0
+Protection and Charger
 $EndSCHEMATC
