@@ -4,4 +4,7 @@
   (lib (name AXT334124)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/AXT334124.lib)(options "")(descr ""))
   (lib (name ED060SC7)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/ED060SC7.lib)(options "")(descr ""))
   (lib (name Wrover)(type Legacy)(uri ${KIPRJMOD}/esp32-wrover-kicad/esp32-wrover.lib)(options "")(descr ""))
+  (lib (name TP4056)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/tp4056.lib)(options "")(descr ""))
+  (lib (name DW01)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/DW-01.lib)(options "")(descr ""))
+  (lib (name fs8205)(type Legacy)(uri ${KIPRJMOD}/kicad-symbols/fs8205.lib)(options "")(descr ""))
 )
