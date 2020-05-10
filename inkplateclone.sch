@@ -2014,8 +2014,6 @@ F 3 "" H 2200 8600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2000 9050 2200 9050
-Wire Wire Line
-	2200 9050 2200 8900
 $Comp
 L power:GND #PWR049
 U 1 1 5ED3AA56
@@ -2732,18 +2730,6 @@ F 3 "~" H 10750 10700 50  0001 C CNN
 	1    10750 10700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Polyfuse F1
-U 1 1 5F1AD48B
-P 15500 8600
-F 0 "F1" H 15588 8646 50  0000 L CNN
-F 1 "Polyfuse" H 15588 8555 50  0000 L CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 15550 8400 50  0001 L CNN
-F 3 "~" H 15500 8600 50  0001 C CNN
-	1    15500 8600
-	1    0    0    -1  
-$EndComp
-Connection ~ 15500 8750
 Connection ~ 10100 8350
 Wire Wire Line
 	10100 8350 10050 8350
@@ -2878,8 +2864,6 @@ F 3 "" H 15500 9050 50  0001 C CNN
 $EndComp
 Text GLabel 15500 8400 1    50   Input ~ 0
 VBAT
-Wire Wire Line
-	15500 8400 15500 8450
 Text GLabel 14700 9050 2    50   Input ~ 0
 BAT_TMP
 Wire Wire Line
@@ -2970,17 +2954,11 @@ Wire Notes Line
 	8850 7950 8850 9800
 Wire Notes Line
 	500  7950 16050 7950
-$Comp
-L Device:Polyfuse F2
-U 1 1 5F977BD5
-P 2200 8750
-F 0 "F2" H 2288 8796 50  0000 L CNN
-F 1 "Polyfuse" H 2288 8705 50  0000 L CNN
-F 2 "Fuse:Fuse_1206_3216Metric" H 2250 8550 50  0001 L CNN
-F 3 "~" H 2200 8750 50  0001 C CNN
-	1    2200 8750
-	1    0    0    -1  
-$EndComp
 Text Notes 11450 8250 0    100  ~ 0
 Protection and Charger
+Wire Wire Line
+	15500 8400 15500 8750
+Connection ~ 15500 8750
+Wire Wire Line
+	2200 8600 2200 9050
 $EndSCHEMATC
