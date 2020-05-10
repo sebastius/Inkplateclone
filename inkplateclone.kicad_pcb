@@ -502,6 +502,11 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (model ${KISYS3DMOD}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (module Package_TO_SOT_SMD:SOT-23-6 (layer F.Cu) (tedit 5A02FF57) (tstamp 5EB80E2C)
@@ -1786,7 +1791,12 @@
     (pad S1 thru_hole oval (at 4.32 1.05 270) (size 1 1.6) (drill oval 0.6 1.2) (layers *.Cu *.Mask)
       (net 12 GND))
     (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0.5 -1 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+    (model /home/sebastius/Inkplateclone/kicad-symbols/HRO_TYPE-C-31-M-12.step
+      (offset (xyz -4.5 -3.7 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
@@ -2467,9 +2477,14 @@
     (pad 39 thru_hole circle (at 1.6 5.82) (size 0.8 0.8) (drill 0.3) (layers *.Cu *.Mask)
       (net 12 GND))
     (model ${KIWALTER3DMOD}/nrf51822-04_module.x3d
-      (offset (xyz 11.00000323479652 29.99999034944534 0))
+      (offset (xyz 11 30 0))
       (scale (xyz 2 2.8 1))
       (rotate (xyz 0 0 0))
+    )
+    (model /home/sebastius/Inkplateclone/kicad-symbols/ESP32-WROVER-B.STEP
+      (offset (xyz 0 -9.5 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
     )
   )
 
