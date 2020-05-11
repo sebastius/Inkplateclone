@@ -2738,7 +2738,7 @@ BAT_GND
 Wire Wire Line
 	9650 8650 10000 8650
 Wire Wire Line
-	9800 8350 9650 8350
+	9800 8350 9750 8350
 Wire Wire Line
 	10000 9500 10000 8650
 Wire Wire Line
@@ -3053,4 +3053,11 @@ Text GLabel 2400 3150 0    50   Input ~ 0
 I2C_SCL
 Text GLabel 2400 3250 0    50   Input ~ 0
 I2C_SDA
+Text GLabel 9750 8300 1    50   Input ~ 0
+VBAT
+Wire Wire Line
+	9750 8300 9750 8350
+Connection ~ 9750 8350
+Wire Wire Line
+	9750 8350 9650 8350
 $EndSCHEMATC
