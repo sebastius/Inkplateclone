@@ -264,14 +264,10 @@ Wire Wire Line
 	1350 3050 1200 3050
 Wire Wire Line
 	1200 2850 1350 2850
-Text Label 2200 3150 0    50   ~ 0
-I2C_SCL
-Text Label 2200 3250 0    50   ~ 0
-I2C_SDA
 Wire Wire Line
-	2200 3250 2650 3250
+	2400 3250 2650 3250
 Wire Wire Line
-	2650 3150 2200 3150
+	2650 3150 2400 3150
 Text Label 2200 3650 0    50   ~ 0
 PWRUP
 Text Label 2200 3750 0    50   ~ 0
@@ -1623,12 +1619,6 @@ Text Label 15400 3900 0    50   ~ 0
 SPI_SDO
 Wire Wire Line
 	15400 3900 15200 3900
-Text Label 14350 1450 3    50   ~ 0
-SPI_SCL
-Text Label 14650 1450 3    50   ~ 0
-SPI_NCS
-Text Label 14900 1450 3    50   ~ 0
-SPI_SDI
 Wire Wire Line
 	14650 950  14650 1050
 Wire Wire Line
@@ -2961,4 +2951,106 @@ Text GLabel 1400 3950 3    50   Input ~ 0
 I2C_SDA
 Text GLabel 1150 3950 3    50   Input ~ 0
 I2C_SCL
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5EC1C6DF
+P 5250 8550
+F 0 "SW1" H 5250 8835 50  0000 C CNN
+F 1 "SW_Push" H 5250 8744 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 5250 8750 50  0001 C CNN
+F 3 "~" H 5250 8750 50  0001 C CNN
+	1    5250 8550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 8550 0    50   Input ~ 0
+RST
+$Comp
+L power:GND #PWR077
+U 1 1 5EC1F312
+P 5500 8600
+F 0 "#PWR077" H 5500 8350 50  0001 C CNN
+F 1 "GND" H 5505 8427 50  0000 C CNN
+F 2 "" H 5500 8600 50  0001 C CNN
+F 3 "" H 5500 8600 50  0001 C CNN
+	1    5500 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 8600 5500 8550
+Wire Wire Line
+	5500 8550 5450 8550
+Wire Wire Line
+	5050 8550 4950 8550
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5EC67A54
+P 5400 10100
+F 0 "SW2" H 5400 10385 50  0000 C CNN
+F 1 "SW_Push" H 5400 10294 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_Push_1P1T_NO_6x6mm_H9.5mm" H 5400 10300 50  0001 C CNN
+F 3 "~" H 5400 10300 50  0001 C CNN
+	1    5400 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR078
+U 1 1 5EC6833E
+P 5700 10200
+F 0 "#PWR078" H 5700 9950 50  0001 C CNN
+F 1 "GND" H 5705 10027 50  0000 C CNN
+F 2 "" H 5700 10200 50  0001 C CNN
+F 3 "" H 5700 10200 50  0001 C CNN
+	1    5700 10200
+	1    0    0    -1  
+$EndComp
+Text GLabel 5100 10100 0    50   Input ~ 0
+EPD_CL
+Wire Wire Line
+	5100 10100 5200 10100
+Wire Wire Line
+	5600 10100 5700 10100
+Wire Wire Line
+	5700 10100 5700 10200
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5ECC050B
+P 3850 8500
+F 0 "J4" H 3958 8781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3958 8690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3850 8500 50  0001 C CNN
+F 3 "~" H 3850 8500 50  0001 C CNN
+	1    3850 8500
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 8400 2    50   Input ~ 0
+ESP_RXD
+Text GLabel 4150 8500 2    50   Input ~ 0
+ESP_TXD
+$Comp
+L power:GND #PWR076
+U 1 1 5ECC394E
+P 4200 8600
+F 0 "#PWR076" H 4200 8350 50  0001 C CNN
+F 1 "GND" H 4205 8427 50  0000 C CNN
+F 2 "" H 4200 8600 50  0001 C CNN
+F 3 "" H 4200 8600 50  0001 C CNN
+	1    4200 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 8600 4050 8600
+Wire Wire Line
+	4050 8500 4150 8500
+Wire Wire Line
+	4150 8400 4050 8400
+Text GLabel 14350 1450 3    50   Input ~ 0
+SPI_SCL
+Text GLabel 14650 1450 3    50   Input ~ 0
+SPI_NCS
+Text GLabel 14900 1450 3    50   Input ~ 0
+SPI_SDI
+Text GLabel 2400 3150 0    50   Input ~ 0
+I2C_SCL
+Text GLabel 2400 3250 0    50   Input ~ 0
+I2C_SDA
 $EndSCHEMATC
